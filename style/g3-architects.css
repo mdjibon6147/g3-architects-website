@@ -162,6 +162,31 @@ main {
 
 }
 
+/* feature section releted star style */
+
+.feature {
+    gap: 100px;
+}
+
+#section-left-terd {
+    border-left: 5px solid #FF900E;
+    padding-left: 21px;
+
+}
+
+.feature-card {
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+
+}
+
+.feature-card .feature-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 
 /* some facts releted style */
@@ -179,9 +204,27 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-
-
+    transition: .3s all ease-in-out;
 }
+
+/* forid codd coppy */
+/* .fact {
+    padding: 45px 36px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    transition: .3s all ease-in-out;
+} */
+
+.fact:hover {
+    box-shadow: 0 0 40px 0 #ff8f0eb4;
+    margin-top: -20px;
+}
+
+
+
+
+
 
 .fact-icone {}
 
