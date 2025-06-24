@@ -165,7 +165,7 @@ main {
 /* feature section releted star style */
 
 .feature {
-    gap: 100px;
+    gap: 150px;
 }
 
 #section-left-terd {
@@ -185,6 +185,19 @@ main {
 .feature-card .feature-title {
     font-size: 20px;
     font-weight: 600;
+}
+
+.experience {
+    margin-top: -100px;
+    margin-left: -100px;
+    padding: 40px;
+    font-size: 25px;
+    font-weight: 500px;
+}
+
+.experience-badge {
+    font-size: 65px;
+    font-weight: 700;
 }
 
 
@@ -274,30 +287,32 @@ main {
 
     .navbar,
     .nav-links,
-    .tems {
+    .tems,
+    .feature {
         flex-direction: column;
     }
 
     .tem-img-container,
     .facts-container,
-    .sponsar-img {
+    .sponsar-img,
+    {
 
-        grid-template-columns: 1fr;
-    }
+    grid-template-columns: 1fr;
+}
 
-    .facts-container {
-        justify-items: center;
-        gap: 10px;
-    }
+.facts-container {
+    justify-items: center;
+    gap: 10px;
+}
 
-    .sponsar-img {
-        justify-items: center;
-        gap: 50px;
-    }
+.sponsar-img {
+    justify-items: center;
+    gap: 50px;
+}
 
-    .our-features {
-        margin-left: 50px;
-    }
+.our-features {
+    margin-left: 50px;
+}
 }
 
 /* medium size davise */
